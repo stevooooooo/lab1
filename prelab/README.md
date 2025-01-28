@@ -29,6 +29,7 @@ Insert your truth table here
 
 $$
 Y = ?
+Y = A'D + AD'
 $$
 
 ### Digital Simulations
