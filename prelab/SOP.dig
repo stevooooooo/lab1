@@ -4,219 +4,8 @@
   <attributes/>
   <visualElements>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>MSB</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>A</string>
-        </entry>
-      </elementAttributes>
-      <pos x="460" y="300"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>B</string>
-        </entry>
-      </elementAttributes>
-      <pos x="540" y="300"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>C</string>
-        </entry>
-      </elementAttributes>
-      <pos x="620" y="300"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>LSB</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>D</string>
-        </entry>
-      </elementAttributes>
-      <pos x="700" y="300"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Y</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1060" y="1420"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>17</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>Use A as the most-significant bit and 
-D as the least-significant bit.</string>
-        </entry>
-      </elementAttributes>
-      <pos x="440" y="180"/>
-    </visualElement>
-    <visualElement>
       <elementName>And</elementName>
       <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1020" y="1160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="480" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="560" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="640" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="720" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="1040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
         <entry>
           <string>wideShape</string>
           <boolean>true</boolean>
@@ -226,7 +15,7 @@ D as the least-significant bit.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="1160" y="1160"/>
+      <pos x="400" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -237,176 +26,152 @@ D as the least-significant bit.</string>
         </entry>
         <entry>
           <string>Inputs</string>
-          <int>4</int>
+          <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="820" y="440"/>
+      <pos x="400" y="400"/>
     </visualElement>
     <visualElement>
-      <elementName>And</elementName>
+      <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
+          <string>Label</string>
+          <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="820" y="540"/>
+      <pos x="140" y="320"/>
     </visualElement>
     <visualElement>
-      <elementName>And</elementName>
+      <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
+          <string>Label</string>
+          <string>D</string>
         </entry>
       </elementAttributes>
-      <pos x="820" y="640"/>
+      <pos x="140" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="260" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="260" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>5V</string>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
           <string>wideShape</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="1300"/>
+      <pos x="560" y="360"/>
     </visualElement>
     <visualElement>
-      <elementName>Testcase</elementName>
+      <elementName>Out</elementName>
       <elementAttributes>
         <entry>
-          <string>Testdata</string>
-          <testData>
-            <dataString>A B C D Y
-0 0 0 0 X
-0 0 0 1 1</dataString>
-          </testData>
+          <string>Label</string>
+          <string>Y</string>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="280"/>
+      <pos x="640" y="380"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="460" y="320"/>
-      <p2 x="480" y="320"/>
+      <p1 x="140" y="400"/>
+      <p2 x="180" y="400"/>
     </wire>
     <wire>
-      <p1 x="540" y="320"/>
-      <p2 x="560" y="320"/>
+      <p1 x="300" y="400"/>
+      <p2 x="400" y="400"/>
     </wire>
     <wire>
-      <p1 x="620" y="320"/>
-      <p2 x="640" y="320"/>
+      <p1 x="500" y="400"/>
+      <p2 x="560" y="400"/>
     </wire>
     <wire>
-      <p1 x="700" y="320"/>
-      <p2 x="720" y="320"/>
+      <p1 x="180" y="400"/>
+      <p2 x="260" y="400"/>
     </wire>
     <wire>
-      <p1 x="980" y="1260"/>
-      <p2 x="1040" y="1260"/>
+      <p1 x="140" y="320"/>
+      <p2 x="220" y="320"/>
     </wire>
     <wire>
-      <p1 x="1080" y="1260"/>
-      <p2 x="1140" y="1260"/>
+      <p1 x="300" y="320"/>
+      <p2 x="400" y="320"/>
     </wire>
     <wire>
-      <p1 x="480" y="320"/>
-      <p2 x="480" y="340"/>
+      <p1 x="220" y="320"/>
+      <p2 x="260" y="320"/>
     </wire>
     <wire>
-      <p1 x="480" y="380"/>
-      <p2 x="480" y="1200"/>
+      <p1 x="200" y="480"/>
+      <p2 x="360" y="480"/>
     </wire>
     <wire>
-      <p1 x="640" y="320"/>
-      <p2 x="640" y="340"/>
+      <p1 x="180" y="340"/>
+      <p2 x="400" y="340"/>
     </wire>
     <wire>
-      <p1 x="640" y="380"/>
-      <p2 x="640" y="1200"/>
+      <p1 x="220" y="420"/>
+      <p2 x="400" y="420"/>
     </wire>
     <wire>
-      <p1 x="1060" y="1380"/>
-      <p2 x="1060" y="1420"/>
+      <p1 x="480" y="420"/>
+      <p2 x="500" y="420"/>
     </wire>
     <wire>
-      <p1 x="460" y="300"/>
-      <p2 x="460" y="320"/>
+      <p1 x="360" y="360"/>
+      <p2 x="400" y="360"/>
     </wire>
     <wire>
-      <p1 x="460" y="320"/>
-      <p2 x="460" y="1200"/>
+      <p1 x="480" y="360"/>
+      <p2 x="560" y="360"/>
     </wire>
     <wire>
-      <p1 x="620" y="300"/>
-      <p2 x="620" y="320"/>
+      <p1 x="360" y="440"/>
+      <p2 x="400" y="440"/>
     </wire>
     <wire>
-      <p1 x="620" y="320"/>
-      <p2 x="620" y="1200"/>
+      <p1 x="480" y="340"/>
+      <p2 x="480" y="360"/>
     </wire>
     <wire>
-      <p1 x="560" y="320"/>
-      <p2 x="560" y="340"/>
+      <p1 x="180" y="340"/>
+      <p2 x="180" y="400"/>
     </wire>
     <wire>
-      <p1 x="560" y="380"/>
-      <p2 x="560" y="1200"/>
+      <p1 x="500" y="400"/>
+      <p2 x="500" y="420"/>
     </wire>
     <wire>
-      <p1 x="720" y="320"/>
-      <p2 x="720" y="340"/>
+      <p1 x="360" y="360"/>
+      <p2 x="360" y="440"/>
     </wire>
     <wire>
-      <p1 x="720" y="380"/>
-      <p2 x="720" y="1200"/>
+      <p1 x="360" y="440"/>
+      <p2 x="360" y="480"/>
     </wire>
     <wire>
-      <p1 x="1040" y="1260"/>
-      <p2 x="1040" y="1300"/>
-    </wire>
-    <wire>
-      <p1 x="1140" y="1240"/>
-      <p2 x="1140" y="1260"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="1240"/>
-      <p2 x="980" y="1260"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="1260"/>
-      <p2 x="1080" y="1300"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="300"/>
-      <p2 x="540" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="320"/>
-      <p2 x="540" y="1200"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="300"/>
-      <p2 x="700" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="320"/>
-      <p2 x="700" y="1200"/>
+      <p1 x="220" y="320"/>
+      <p2 x="220" y="420"/>
     </wire>
   </wires>
   <measurementOrdering/>
